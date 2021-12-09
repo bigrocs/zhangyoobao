@@ -47,10 +47,6 @@ func TestBinDevice(t *testing.T) {
 	request.BizContent = map[string]interface{}{
 		"deviceType": "17",
 		"deviceName": os.Getenv("zhangyoobao_deviceName"),
-		"amount":     "192",
-		"orderId":    "asadasas",
-		"prefix":     "5",
-		"random":     uuid.NewV4().String(),
 	}
 	// 请求
 	response, err := client.ProcessCommonRequest(request)
