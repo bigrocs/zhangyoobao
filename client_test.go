@@ -22,7 +22,7 @@ func TestSendVoiceMsg(t *testing.T) {
 		"deviceName": os.Getenv("zhangyoobao_deviceName"),
 		"amount":     "1922",
 		"orderId":    uuid.NewV4().String(),
-		"prefix":     "39",
+		"prefix":     "5",
 		"random":     uuid.NewV4().String(),
 	}
 	// 请求
